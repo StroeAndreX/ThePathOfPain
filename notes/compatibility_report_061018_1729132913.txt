@@ -1,0 +1,81 @@
+Converting GML script: ${project_dir}\scripts\shockwave_create\shockwave_create.gml
+Converted description /// @description  shockwave_create(x, y, depth, view, width, max_radius, speed, segments, push, [update], [colour], [additive]);/// @param x
+/// @param  y
+/// @param  depth
+/// @param  view
+/// @param  width
+/// @param  max_radius
+/// @param  speed
+/// @param  segments
+/// @param  push
+/// @param  [update]
+/// @param  [colour]
+/// @param  [additive]
+
+Converting GML script: ${project_dir}\scripts\shockwave_draw\shockwave_draw.gml
+Converted builtin - line 74: view_xview[wave_view] -> __view_get( e__VW.XView, wave_view )
+Converted builtin - line 75: view_yview[wave_view] -> __view_get( e__VW.YView, wave_view )
+Converted builtin - line 14: view_wview[wave_view] -> __view_get( e__VW.WView, wave_view )
+Converted builtin - line 15: view_hview[wave_view] -> __view_get( e__VW.HView, wave_view )
+Converted description /// @description  shockwave_draw();
+
+Converting GML script: ${project_dir}\scripts\shockwave_cleanup\shockwave_cleanup.gml
+Converted description /// @description  shockwave_cleanup();
+
+Converting GML script: ${project_dir}\scripts\shockwave_draw_inverted\shockwave_draw_inverted.gml
+Converted builtin - line 78: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 79: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  shockwave_draw_inverted();
+
+Converting GML script: ${project_dir}\scripts\shockwave_draw_inside\shockwave_draw_inside.gml
+Converted builtin - line 78: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 79: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  shockwave_draw_inside();
+
+Converting GML script: ${project_dir}\scripts\shockwave_draw_inside_inv\shockwave_draw_inside_inv.gml
+Converted builtin - line 78: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 79: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  shockwave_draw_inside_inv();
+
+Converting GML script: ${project_dir}\scripts\shockwave_draw_outside\shockwave_draw_outside.gml
+Converted builtin - line 78: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 79: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  shockwave_draw_outside();
+
+Converting GML script: ${project_dir}\scripts\shockwave_draw_outside_inv\shockwave_draw_outside_inv.gml
+Converted builtin - line 78: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 79: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  shockwave_draw_outside_inv()
+
+Converting GML script: ${project_dir}\objects\obj_Shockwave\Create_0.gml
+Converted description /// @description  @description  Initialise required variables
+
+Converting GML script: ${project_dir}\objects\obj_DEMO\Step_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] = _cx -> __view_set( e__VW.XView, 0, _cx )
+Converted builtin - line 12: view_yview[0] = _cy -> __view_set( e__VW.YView, 0, _cy )
+
+Converting GML script: ${project_dir}\objects\obj_DEMO_Button_Parent\Draw_0.gml
+Converted description /// @description  Suppress
+
+Converting GML script: ${project_dir}\objects\obj_DEMO_ViewEnable\Other_10.gml
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Updated compatibility script '__global_object_depths.gml'

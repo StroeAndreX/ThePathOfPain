@@ -1,0 +1,123 @@
+Converting GML script: ${project_dir}\scripts\setup_property\setup_property.gml
+Converted description /// @description setup_property(id, value, name, min, max);/// @param id
+/// @param  value
+/// @param  name
+/// @param  min
+/// @param  max
+
+Converting GML script: ${project_dir}\scripts\property_limit\property_limit.gml
+Converted description /// @description property_limit(id, min, max);/// @param id
+/// @param  min
+/// @param  max
+
+Converting GML script: ${project_dir}\scripts\draw_slider\draw_slider.gml
+Converted description /// @description draw_slider(caption, x, y, min, max, id)/// @param caption
+/// @param  x
+/// @param  y
+/// @param  min
+/// @param  max
+/// @param  id
+
+Converting GML script: ${project_dir}\scripts\ui_step\ui_step.gml
+Converted string - line 1: 'R' -> "R"
+Converted string - line 14: 'C' -> "C"
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_init\BktGlitch_init.gml
+Converted description /// @description  BktGlitch_init()
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_config_preset\BktGlitch_config_preset.gml
+Converted description /// @description  BktGlitch_config_preset(preset)/// @param preset
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_config\BktGlitch_config.gml
+Converted description /// @description  BktGlitch_config(lineShift, lineSpeed, lineResolution, lineDrift, lineVerticalShift, jumbleness, jumbleSpeed, jumbleResolution, jumbleShift, noiseLevel, channelShift, channelDispersion, shakiness, intensity, rngSeed, time)/// @param lineShift
+/// @param  lineSpeed
+/// @param  lineResolution
+/// @param  lineDrift
+/// @param  lineVerticalShift
+/// @param  jumbleness
+/// @param  jumbleSpeed
+/// @param  jumbleResolution
+/// @param  jumbleShift
+/// @param  noiseLevel
+/// @param  channelShift
+/// @param  channelDispersion
+/// @param  shakiness
+/// @param  intensity
+/// @param  rngSeed
+/// @param  time
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_config_zero\BktGlitch_config_zero.gml
+Converted description /// @description  BktGlitch_config_zero()
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_resolution_of_gui\BktGlitch_set_resolution_of_gui.gml
+Converted description /// @description  BktGlitch_set_resolution_of_gui()
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_resolution_of_application_surface\BktGlitch_set_resolution_of_application_surface.gml
+Converted description /// @description  BktGlitch_set_resolution_of_application_surface()
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_time\BktGlitch_set_time.gml
+Converted description /// @description  BktGlitch_set_time(time)/// @param time
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_intensity\BktGlitch_set_intensity.gml
+Converted description /// @description  BktGlitch_set_intensity(intensity)/// @param intensity
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_line_shift\BktGlitch_set_line_shift.gml
+Converted description /// @description  BktGlitch_set_line_shift(offset)/// @param offset
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_line_speed\BktGlitch_set_line_speed.gml
+Converted description /// @description  BktGlitch_set_line_speed(speed)/// @param speed
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_line_resolution\BktGlitch_set_line_resolution.gml
+Converted description /// @description  BktGlitch_set_line_resolution(resolution)/// @param resolution
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_line_vertical_shift\BktGlitch_set_line_vertical_shift.gml
+Converted description /// @description  BktGlitch_set_line_vertical_shift(shift)/// @param shift
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_noise_level\BktGlitch_set_noise_level.gml
+Converted description /// @description  BktGlitch_set_noise_level(noise level)/// @param noise level
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_jumbleness\BktGlitch_set_jumbleness.gml
+Converted description /// @description  BktGlitch_set_jumbleness(jumbleness)/// @param jumbleness
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_jumble_speed\BktGlitch_set_jumble_speed.gml
+Converted description /// @description  BktGlitch_set_jumble_speed(jumble speed)/// @param jumble speed
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_jumble_resolution\BktGlitch_set_jumble_resolution.gml
+Converted description /// @description  BktGlitch_set_jumble_resolution(resolution)/// @param resolution
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_jumble_shift\BktGlitch_set_jumble_shift.gml
+Converted description /// @description  BktGlitch_set_jumble_shift(shift)/// @param shift
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_channel_shift\BktGlitch_set_channel_shift.gml
+Converted description /// @description  BktGlitch_set_channel_shift(shift)/// @param shift
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_rng_seed\BktGlitch_set_rng_seed.gml
+Converted description /// @description  BktGlitch_set_rng_seed(seed)/// @param seed
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_shakiness\BktGlitch_set_shakiness.gml
+Converted description /// @description  BktGlitch_set_shakiness(shakiness)/// @param shakiness
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_channel_dispersion\BktGlitch_set_channel_dispersion.gml
+Converted description /// @description  BktGlitch_set_channel_dispersion(dispersion)/// @param dispersion
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_line_drift\BktGlitch_set_line_drift.gml
+Converted description /// @description  BktGlitch_set_line_drift(drift)/// @param drift
+
+Converting GML script: ${project_dir}\scripts\BktGlitch_set_resolution\BktGlitch_set_resolution.gml
+Converted description /// @description  BktGlitch_set_resolution(width, height)/// @param width
+/// @param  height
+
+!!! Font fntTop uses a font (ThickPix2) not installed on this system - Font has NOT been regenerated
+!!! Font fntValue uses a font (ThickPix2) not installed on this system - Font has NOT been regenerated
+!!! Font fntMain uses a font (ThickPix2) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\objControl\Create_0.gml
+Converted description /// @description ///////////////////////////////
+
+Converting GML script: ${project_dir}\objects\objSimpleExample\Create_0.gml
+Converted description /// @description ///////////////////////////////
+
+Added compatibility script 'draw/draw_enable_alphablend.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'

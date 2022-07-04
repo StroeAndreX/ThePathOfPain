@@ -1,0 +1,30 @@
+{
+    "id": "e9cf7d5e-03b9-454a-b914-bff2dd0dbf75",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "e9cf7d5e-03b9-454a-b914-bff2dd0dbf75",
+    "children": [
+        "f811a66a-4a46-40cf-8d92-b253ffadc0f2",
+        "f5ae5bff-ec16-4893-8d17-917846a09759",
+        "af03ebc7-7b04-42ef-ba27-34ffebadd6de",
+        "3285460a-efa2-41da-8b86-f18dc935dafb",
+        "8bd155c2-f964-477b-bfab-c44436b462b8",
+        "1e44ede5-e7e7-4457-9410-628767c51aec",
+        "4e06749d-1443-4b3f-b92d-ea9fac0cb3c6",
+        "8947abea-d969-40c5-8857-37a85d5860c4",
+        "81655adb-f5c4-4a0e-9027-577b1b6c8e5a",
+        "bae0c6d0-7b16-4041-a512-2a6fdb2ac34c",
+        "864a0f8c-390c-454f-b7ae-eab1b46d89e3",
+        "24ecf5e1-66c0-423c-a652-b75317bc330c",
+        "9638530f-0607-490d-8cac-54e87d0959dc",
+        "0f9a44ea-56b3-4775-ab77-57134f6470cc",
+        "bdc83de5-3da4-4225-8ec4-1fa9393fbfcc",
+        "679cbee3-ea10-4d7d-b761-da0f25a90908",
+        "80ecec39-f055-481a-ae3a-7ba0051b657a",
+        "8c7bb5bb-63a6-4a5c-aa70-48d0c2992549"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "Bubbles",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

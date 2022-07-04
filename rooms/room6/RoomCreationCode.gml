@@ -1,0 +1,1 @@
+scr_text("Hello World",0.5,32,32);

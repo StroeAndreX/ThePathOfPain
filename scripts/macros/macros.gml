@@ -1,0 +1,12 @@
+#macro x_dust $808080
+#macro x_black $342022
+#macro x_white $ffffff
+#macro x_plum $3c2845
+#macro x_red $3232ac
+#macro x_salmon $6357d9
+#macro x_pink $ba7bd7
+#macro x_blue $ff9b63
+#macro x_pearl $fcdbcb
+#macro x_brown $3b568f
+#macro x_dk_skin $66a0d9
+#macro x_yellow $36f2fb

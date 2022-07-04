@@ -1,0 +1,1 @@
+animaCrystalNeeded = 0;

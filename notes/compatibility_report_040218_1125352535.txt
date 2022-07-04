@@ -1,0 +1,882 @@
+Converting GML script: ${project_dir}\scripts\display_write_specs\display_write_specs.gml
+Converted builtin - line 19: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description display_write_spec(display enum)/// @function display_write_spec
+/// @param display enum
+
+Converting GML script: ${project_dir}\scripts\f_camera_target\f_camera_target.gml
+Converted builtin - line 25: view_xview = VXA -> __view_set( e__VW.XView, 0, VXA )
+Converted builtin - line 26: view_yview = VYA -> __view_set( e__VW.YView, 0, VYA )
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_wview = VW -> __view_set( e__VW.WView, 0, VW )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 28: view_hview = VH -> __view_set( e__VW.HView, 0, VH )
+Converted builtin - line 30: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 31: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 32: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 30: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 31: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 32: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\scripts\f_set_normal_room\f_set_normal_room.gml
+Converted builtin - line 1: view_xview = 0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 2: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+Converted builtin - line 10: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_wview[0] = 640 -> __view_set( e__VW.WView, 0, 640 )
+Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 4: view_hview[0] = 360 -> __view_set( e__VW.HView, 0, 360 )
+Converted builtin - line 14: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 15: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 16: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 6: view_wport[0] = 1280 -> __view_set( e__VW.WPort, 0, 1280 )
+Converted builtin - line 14: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 15: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 16: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 7: view_hport[0] = 720 -> __view_set( e__VW.HPort, 0, 720 )
+Converted builtin - line 11: view_surface_id[0] = o.surface_main -> __view_set( e__VW.SurfaceID, 0, o.surface_main )
+
+Converting GML script: ${project_dir}\scripts\f_set_viewport\f_set_viewport.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 1: view_xport = 0 -> __view_set( e__VW.XPort, 0, 0 )
+Converted builtin - line 2: view_yport = 0 -> __view_set( e__VW.YPort, 0, 0 )
+Converted builtin - line 3: view_wport = __view_get( e__VW.WView, 0 )*2 -> __view_set( e__VW.WPort, 0, __view_get( e__VW.WView, 0 )*2 )
+Converted builtin - line 4: view_hport = __view_get( e__VW.HView, 0 )*2 -> __view_set( e__VW.HPort, 0, __view_get( e__VW.HView, 0 )*2 )
+
+Converting GML script: ${project_dir}\scripts\scr_charactercheck\scr_charactercheck.gml
+Converted string - line 15: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\scr_drawqbox\scr_drawqbox.gml
+Converted builtin - line 6: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 16: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 22: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 32: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 38: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 44: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 54: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 60: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 66: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 72: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 82: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 88: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 94: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 100: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 106: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 6: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 16: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 22: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 32: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 38: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 44: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 54: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 60: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 66: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 72: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 82: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 88: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 94: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 100: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 106: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+
+Converting GML script: ${project_dir}\scripts\scr_stredit\scr_stredit.gml
+Converted string - line 16: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\scr_tcolorget\scr_tcolorget.gml
+Converted string - line 7: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\scr_textbox\scr_textbox.gml
+Converted string - line 54: "\0Colored text\ is also available.`" -> "\\0Colored text\\ is also available.`"
+Converted string - line 55: "Only one color per textbox,} though.#It's not much of a problem,` because#using it too often looks \1really tacky\." -> "Only one color per textbox,} though.#It's not much of a problem,` because#using it too often looks \\1really tacky\\."
+Converted string - line 132: "You haven't talked to \2Marsha\ yet." -> "You haven't talked to \\2Marsha\\ yet."
+Converted string - line 190: ">Hi!`  My name is Rose.}#I just love \0shorts\.`  They're fun to wear!`#Especially blue jean shorts." -> ">Hi!`  My name is Rose.}#I just love \\0shorts\\.`  They're fun to wear!`#Especially blue jean shorts."
+Converted string - line 191: "Skirts are OK,` but it's hard to run around{...`|#Pants are fine,` but I like the freedom of#\0shorts\.`  It's no fun being restricted." -> "Skirts are OK,` but it's hard to run around{...`|#Pants are fine,` but I like the freedom of#\\0shorts\\.`  It's no fun being restricted."
+Converted string - line 193: "And don't you hate it when you get a \1wedgie\?`#That really stinks...`" -> "And don't you hate it when you get a \\1wedgie\\?`#That really stinks...`"
+Converted string - line 195: "But not as much as \0skunks\!`  Boy, do those#stink!`  Have you ever smelled one?`#I have,` and it was [SOOOOOOOOO| rank." -> "But not as much as \\0skunks\\!`  Boy, do those#stink!`  Have you ever smelled one?`#I have,` and it was [SOOOOOOOOO| rank."
+
+Converting GML script: ${project_dir}\scripts\scr_particle\scr_particle.gml
+Converted description /// @description PARTICLES
+
+Converting GML script: ${project_dir}\scripts\scr_bossdestroy\scr_bossdestroy.gml
+Converted description /// @description PARTICLES
+
+Converting GML script: ${project_dir}\scripts\stext\stext.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Font fnt_menu has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fnt_2 has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+!!! Font font2 uses a font (m5x7) not installed on this system - Font has NOT been regenerated
+Font fnt_textbox has been converted to font family Courier New (Regular) - Font has been regenerated, small inconsistencies may occur
+Font font0 has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+!!! Font fnt_pixel uses a font (m5x7) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_pixel2 uses a font (m5x7) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_BIGpixel uses a font (m5x7) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_lever\Step_0.gml
+Converted builtin - line 8: view_angle = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_lever3\Step_0.gml
+Converted builtin - line 7: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+
+Converting GML script: ${project_dir}\objects\obj_level_4\Step_0.gml
+Converted builtin - line 4: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+
+Converting GML script: ${project_dir}\objects\obj_push\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_push\Step_0.gml
+Converted description /// @description Setting Push
+
+Converting GML script: ${project_dir}\objects\obj_push_m\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: ${project_dir}\objects\obj_push_m\Step_0.gml
+Converted description /// @description Setting Push
+
+Converting GML script: ${project_dir}\objects\oFallBlock\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\oFallBlock\Alarm_1.gml
+Converted description /// @description PARTICLES
+
+Converting GML script: ${project_dir}\objects\obj_text\Draw_0.gml
+Converted description /// @description Add letters over time
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_0.gml
+Converted builtin - line 16: view_xview[0] = x -> __view_set( e__VW.XView, 0, x )
+Converted builtin - line 17: view_yview[0] = y -> __view_set( e__VW.YView, 0, y )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade\Draw_0.gml
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 33: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 33: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_load\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oPrepareToLastBoss_GoTo\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToPrepare\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToOldTimes\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_BossEnd\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToStory\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToStoryTwo\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_FinalBossEnd\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToCredits\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oPrepareToFight_GoTo\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToRPrepare\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_LoadGame\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oPrepareToFight_Fade\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_NoLoading\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade2\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade3\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade4\Draw_0.gml
+Converted builtin - line 28: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade5\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade6\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade7\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade8\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade9\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Detected a Windows Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct
+Converting GML script: ${project_dir}\objects\obj_fade10\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade11\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade12\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade13\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade14\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade15\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade16\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade17\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade18\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade19\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fade20\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oWellDone_Fade\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_Ruclefia\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToRuclefia\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_Mwuuh\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToMwuuh\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToLevel6\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToInverse\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade_ToJumpy\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\oFade19\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_tfade\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fadetoee\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_nexttomenu\Draw_0.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 24: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fadetomenu\Draw_0.gml
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fadeload\Draw_0.gml
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 22: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_fadeastart\Draw_0.gml
+Converted builtin - line 24: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 27: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\bg_choose\Create_0.gml
+Converted builtin - line 1: background_index[0] = choose(x_levels, x_level2, x_level3, x_level4, x_level5, x_level6, x_level7, x_level8 -> __background_set( e__BG.Index, 0, choose(x_levels, x_level2, x_level3, x_level4, x_level5, x_level6, x_level7, x_level8 )
+
+Converting GML script: ${project_dir}\objects\obj_darkroom\Create_0.gml
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_darkroom\Step_0.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_darkroom\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\oEndLevelTiming\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\oEndLevelTiming\Step_0.gml
+Converted description /// @description Return to zero
+
+Converting GML script: ${project_dir}\objects\obj_lever2\Step_0.gml
+Converted builtin - line 3: view_angle = random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, random_range(-0.8,0.8 )
+
+Converting GML script: ${project_dir}\objects\o_check_direction\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_2\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_3\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_4\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_5\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_6\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_7\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_8\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\o_check_direction_9\Create_0.gml
+Converted description /// @description  All variables 
+
+Converting GML script: ${project_dir}\objects\oLoading\Step_0.gml
+Converted description /// @description Return Menu
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description Initialize Variables
+Converted string - line 64: " \infinity " -> " \\infinity "
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_2.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted builtin - line 934: background_index[0] =  x_levels -> __background_set( e__BG.Index, 0, x_levels )
+Converted builtin - line 938: background_index[0] =  x_level2 -> __background_set( e__BG.Index, 0, x_level2 )
+Converted builtin - line 942: background_index[0] =  x_level3 -> __background_set( e__BG.Index, 0, x_level3 )
+Converted builtin - line 946: background_index[0] =  x_level4 -> __background_set( e__BG.Index, 0, x_level4 )
+Converted builtin - line 950: background_index[0] =  x_level5 -> __background_set( e__BG.Index, 0, x_level5 )
+Converted builtin - line 954: background_index[0] =  x_level6 -> __background_set( e__BG.Index, 0, x_level6 )
+Converted builtin - line 958: background_index[0] =  x_level7 -> __background_set( e__BG.Index, 0, x_level7 )
+Converted builtin - line 962: background_index[0] =  x_level8 -> __background_set( e__BG.Index, 0, x_level8 )
+Converted builtin - line 922: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 659: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 697: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 734: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 765: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 795: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 824: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 853: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 882: view_xview[0] += 6 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (6) )
+Converted builtin - line 923: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 660: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 698: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 735: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 766: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 796: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 825: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 854: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 883: view_yview[0] += 6 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (6) )
+Converted builtin - line 665: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 703: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 740: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 771: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 801: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 830: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 859: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 888: view_wview[0] += 6 -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + (6) )
+Converted builtin - line 666: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 704: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 741: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 772: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 802: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 831: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 860: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 889: view_hview[0] -= 6 -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - (6) )
+Converted builtin - line 174: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+Converted builtin - line 184: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+Converted builtin - line 200: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+Converted builtin - line 216: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+Converted description /// @description PLAYER SETUP
+
+Converting GML script: ${project_dir}\objects\obj_dying\Step_0.gml
+Converted builtin - line 2: view_angle = 0 + random_range(-energy,energy -> __view_set( e__VW.Angle, 0, 0 + random_range(-energy,energy )
+Converted builtin - line 7: view_angle = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\oControllerRecommanded\Draw_64.gml
+Converted description /// @description Add Text
+
+Converting GML script: ${project_dir}\objects\o_player\Other_11.gml
+Converted description /// @description  vertical collision
+
+Converting GML script: ${project_dir}\objects\o_player\Other_10.gml
+Converted description /// @description  horizontal collision
+
+Converting GML script: ${project_dir}\objects\o\Step_0.gml
+Converted builtin - line 131: view_xview = VXA+_h -> __view_set( e__VW.XView, 0, VXA+_h )
+Converted builtin - line 132: view_yview = VYA+_v -> __view_set( e__VW.YView, 0, VYA+_v )
+Converted builtin - line 133: view_wview = VW -> __view_set( e__VW.WView, 0, VW )
+Converted builtin - line 134: view_hview = VH -> __view_set( e__VW.HView, 0, VH )
+Converted builtin - line 136: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 137: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 136: view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 137: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\o\Other_4.gml
+Converted builtin - line 40: background_colour = c_aqua -> __background_set_colour( c_aqua )
+Converted builtin - line 32: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 32: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 31: view_surface_id[0] = surface_main -> __view_set( e__VW.SurfaceID, 0, surface_main )
+
+Converting GML script: ${project_dir}\objects\o\Draw_73.gml
+Converted builtin - line 19: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 74: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 75: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 74: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 22: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 75: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\o\Draw_64.gml
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 8: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_surface_id[0] = surface_main -> __view_set( e__VW.SurfaceID, 0, surface_main )
+
+Converting GML script: ${project_dir}\objects\object260\Step_0.gml
+Converted builtin - line 1: view_angle[0] = 180 -> __view_set( e__VW.Angle, 0, 180 )
+
+Converting GML script: ${project_dir}\objects\obj_enemy1_\Create_0.gml
+Converted description /// @description image_index 
+
+Converting GML script: ${project_dir}\objects\oSelectRoom\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\oSelectRoom\Step_0.gml
+Converted description /// @description Settings
+
+Converting GML script: ${project_dir}\objects\oSelectRoom\Draw_0.gml
+Converted description /// @description DrawText
+
+Converting GML script: ${project_dir}\objects\oSelect_Controll\Step_0.gml
+Converted description /// @description Select Level
+
+Converting GML script: ${project_dir}\objects\oSecretLevel_Access\Step_0.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\oP1_1\Step_0.gml
+Converted builtin - line 2: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 7: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 12: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 17: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 22: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 27: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 32: background_index[0] -> __background_get( e__BG.Index, 0 )
+Converted builtin - line 37: background_index[0] -> __background_get( e__BG.Index, 0 )
+
+Converting GML script: ${project_dir}\objects\oBBattle\Step_0.gml
+Converted builtin - line 29: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted builtin - line 56: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted builtin - line 120: view_angle[0] = 0 + random_range(-1,1 -> __view_set( e__VW.Angle, 0, 0 + random_range(-1,1 )
+Converted builtin - line 125: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\oBBattle_1\Step_0.gml
+Converted builtin - line 17: view_angle[0] = 0 + random_range(-1,+1 -> __view_set( e__VW.Angle, 0, 0 + random_range(-1,+1 )
+Converted builtin - line 25: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted builtin - line 38: view_angle[0] = 0 + random_range(-1,+1 -> __view_set( e__VW.Angle, 0, 0 + random_range(-1,+1 )
+Converted builtin - line 49: view_angle[0] = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_Phlameax\Create_0.gml
+Converted description /// @description COMBAT VARIALBES
+
+Converting GML script: ${project_dir}\objects\obj_Phlameax\Step_0.gml
+Converted builtin - line 228: view_angle = 0 + random_range(0.8,-0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(0.8,-0.8 )
+Converted builtin - line 234: view_angle = 0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted builtin - line 239: view_angle = 0 + random_range(0.8,-0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(0.8,-0.8 )
+Converted builtin - line 245: view_angle = 0 -> __view_set( e__VW.Angle, 0, 0 )
+Converted builtin - line 289: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+Converted description /// @description COMBAT SYSTEM S1
+
+Converting GML script: ${project_dir}\objects\oAttacks\Step_0.gml
+Converted builtin - line 77: view_angle = 0 + random_range(-0.8,0.8 -> __view_set( e__VW.Angle, 0, 0 + random_range(-0.8,0.8 )
+
+Converting GML script: ${project_dir}\objects\obj_crosshair\Step_0.gml
+Converted description /// @description GamePad Input
+
+Converting GML script: ${project_dir}\objects\obj_inverse\Step_0.gml
+Converted builtin - line 1: view_angle[0] = 180 -> __view_set( e__VW.Angle, 0, 180 )
+
+Converting GML script: ${project_dir}\objects\obj_activator\Step_0.gml
+Converted description /// @description Functions || Image_index 
+
+Converting GML script: ${project_dir}\objects\obj_enemy\Create_0.gml
+Converted description /// @description Initialization variables  
+
+Converting GML script: ${project_dir}\objects\oShowSolution\Step_0.gml
+Converted description /// @description Animation end 
+
+Converting GML script: ${project_dir}\objects\oResolution\Create_0.gml
+Converted description /// @description Get_Display_size
+
+Converting GML script: ${project_dir}\objects\oResolution\Step_0.gml
+Converted description /// @description SET WIDTH/HEIGHT
+
+Converting GML script: ${project_dir}\objects\oTransition\Draw_0.gml
+Converted builtin - line 18: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\oControll_WindowMode\Step_0.gml
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Missing audiogroup for sound: 'snd_level1' - setting to default audio group
+Missing audiogroup for sound: 'snd_level2' - setting to default audio group
+Missing audiogroup for sound: 'snd_level3' - setting to default audio group
+Missing audiogroup for sound: 'snd_level4' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu' - setting to default audio group
+Missing audiogroup for sound: 'snd_weird1' - setting to default audio group
+Missing audiogroup for sound: 'snd_weird2' - setting to default audio group
+Missing audiogroup for sound: 'snd_SadSound' - setting to default audio group
+Missing audiogroup for sound: 'snd_boss' - setting to default audio group
+Missing audiogroup for sound: 'snd_finalboss' - setting to default audio group
+Missing audiogroup for sound: 'snd_blop' - setting to default audio group
+Missing audiogroup for sound: 'snd_dying' - setting to default audio group
+Missing audiogroup for sound: 'snd_waterdrop' - setting to default audio group
+Missing audiogroup for sound: 'snd_button' - setting to default audio group
+Missing audiogroup for sound: 'snd_click' - setting to default audio group
+Missing audiogroup for sound: 'snd_talkinit' - setting to default audio group
+Missing audiogroup for sound: 'snd_textboxclose' - setting to default audio group
+Missing audiogroup for sound: 'snd_voicehigh' - setting to default audio group
+Missing audiogroup for sound: 'snd_voicelow' - setting to default audio group
+Missing audiogroup for sound: 'snd_voicemid' - setting to default audio group
+Missing audiogroup for sound: 'snd_dead' - setting to default audio group
+Missing audiogroup for sound: 'snd_door' - setting to default audio group
+Missing audiogroup for sound: 'snd_drag' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_appear' - setting to default audio group
+Missing audiogroup for sound: 'snd_enemy_dead' - setting to default audio group
+Missing audiogroup for sound: 'snd_fireball' - setting to default audio group
+Missing audiogroup for sound: 'snd_fireball_make' - setting to default audio group
+Missing audiogroup for sound: 'snd_jump' - setting to default audio group
+Missing audiogroup for sound: 'snd_key' - setting to default audio group
+Missing audiogroup for sound: 'snd_land' - setting to default audio group
+Missing audiogroup for sound: 'snd_pinned' - setting to default audio group
+Missing audiogroup for sound: 'snd_R' - setting to default audio group
+Missing audiogroup for sound: 'snd_shake' - setting to default audio group
+Missing audiogroup for sound: 'snd_slide' - setting to default audio group
+Missing audiogroup for sound: 'snd_throw' - setting to default audio group
+Missing audiogroup for sound: 'snd_UI_grab' - setting to default audio group
+Missing audiogroup for sound: 'snd_UI_ungrab' - setting to default audio group
+Missing audiogroup for sound: 'snd_walk' - setting to default audio group
+Missing audiogroup for sound: 'snd_walljump' - setting to default audio group
+Missing audiogroup for sound: 'snd_wallpin' - setting to default audio group
+Missing audiogroup for sound: 'mus_main' - setting to default audio group
+Missing audiogroup for sound: 'snd_voicethought' - setting to default audio group
+Missing audiogroup for sound: 'snd_deathenemy' - setting to default audio group
+Missing audiogroup for sound: 'snd_victory' - setting to default audio group
+Missing audiogroup for sound: 'snd_shoot' - setting to default audio group
+Missing audiogroup for sound: 'snd_portals' - setting to default audio group
+Missing audiogroup for sound: 'sMonster1' - setting to default audio group
+Missing audiogroup for sound: 'sMonster2' - setting to default audio group
+Missing audiogroup for sound: 'sMonster3' - setting to default audio group
+Missing audiogroup for sound: 'sMonster4' - setting to default audio group
+Missing audiogroup for sound: 'sMonster5' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_kill_position.gml'
+Added compatibility script 'action/action_move.gml'
+Added compatibility script 'action/action_move_point.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_colour.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_colour_element.gml'
+Added compatibility script '__global_object_depths.gml'

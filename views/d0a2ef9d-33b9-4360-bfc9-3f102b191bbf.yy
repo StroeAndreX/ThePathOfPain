@@ -1,0 +1,30 @@
+{
+    "id": "d0a2ef9d-33b9-4360-bfc9-3f102b191bbf",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "d0a2ef9d-33b9-4360-bfc9-3f102b191bbf",
+    "children": [
+        "92462758-e3e8-4cba-a983-3255697a4aa3",
+        "122da70f-6823-4d35-8b7d-ade3e21fe2ae",
+        "9da57c4a-6706-497d-b01e-6bd4a5638178",
+        "26adc3b3-6187-434c-9886-be3e29f227e1",
+        "45e46ee6-60ea-41a8-9a0c-5febe8bb5840",
+        "ce876f8d-ddf9-4343-9bc3-070f5c1abe03",
+        "a464118d-bad9-47d4-9dfe-1aa67f147dd5",
+        "9bceef4e-60a4-40fb-b158-222fc7ba143b",
+        "bb53be59-acd5-40b0-b2d4-42e7c03267e7",
+        "6361ab20-ae9f-445a-8779-f3b0c24f9067",
+        "df8dfe96-4d1f-4c8f-85bb-813bede48968",
+        "3cd0d6a8-7419-4446-aa4d-420588989439",
+        "4b8e3d8e-00f6-4d0b-8a8e-d9f6222d9891",
+        "7679441c-3973-4b71-818c-651dea6bb37e",
+        "2d5c2f03-2d99-41d1-840e-293ec4d249a8",
+        "c1797b5f-2752-4705-89b6-57757670343e",
+        "22d29f61-d9d3-436d-921c-d5a2bb2ffeae",
+        "799c4324-7258-4a9a-aafb-1e293a2565d6"
+    ],
+    "filterType": "GMObject",
+    "folderName": "gControls",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

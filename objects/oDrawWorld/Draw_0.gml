@@ -1,0 +1,74 @@
+#region TheTruth
+//draw_sprite_ext(sprite178,image_index,0,0,1,1,0,image_blend,0.4);
+if(room == FeelThePain)
+{
+	//1 
+	draw_sprite(sTheTruth_G0,image_index,0,0);
+	draw_sprite(sTheTruth_V0,image_index,0,0);
+	draw_sprite(sTheTruth_D0,image_index,-23,52);
+	draw_sprite(sTheTruth_S0,image_index,5,75);
+	//2
+	draw_sprite(sTheTruth_G1,image_index,1024,0);
+	draw_sprite(sTheTruth_V1,image_index,1024,0);
+	draw_sprite(sTheTruth_D1,image_index,1024,0);
+	draw_sprite(sTheTruth_S1,image_index,1024,0);
+	//3
+	draw_sprite(sTheTruth_G2,image_index,1024*2,0);
+	draw_sprite(sTheTruth_V2,image_index,1024*2,0);
+	draw_sprite(sTheTruth_D2,image_index,1024*2,0);
+	draw_sprite(sTheTruth_S2,image_index,1024*2,0);
+	//4
+	draw_sprite(sTheTruth_G3,image_index,1024*3,0);
+	draw_sprite(sTheTruth_V3,image_index,1024*3,0);
+	draw_sprite(sTheTruth_D3,image_index,1024*3,0);
+	draw_sprite(sTheTruth_S3,image_index,1024*3,0);
+	//5
+	draw_sprite(sTheTruth_G4,image_index,1024*4,0);
+	draw_sprite(sTheTruth_V4,image_index,1024*4,0);
+	draw_sprite(sTheTruth_D4,image_index,1024*4,0);
+	draw_sprite(sTheTruth_S4,image_index,1024*4,0);
+	draw_sprite(sTheTruth_I4,image_index,1024*4,0);
+	//6
+	draw_sprite_ext(sTheTruth_G5,image_index,1024*4,576,1,1,0,image_blend,1);
+	draw_sprite_ext(sTheTruth_V5,image_index,1024*4,576,1,1,0,image_blend,0.8);
+	draw_sprite_ext(sTheTruth_D5,image_index,1024*4,576,1,1,0,image_blend,0.8);
+	draw_sprite_ext(sTheTruth_S5,image_index,1024*4,576,1,1,0,image_blend,1);	
+	draw_sprite_ext(sTheTruth_I5,image_index,1024*4,576,1,1,0,image_blend,1);	
+	//7
+	draw_sprite_ext(sTheTruth_G6,image_index,1024*5,576,1,1,0,image_blend,1);
+	draw_sprite_ext(sTheTruth_VD6,image_index,1024*5,576,1,1,0,image_blend,0.8);
+	draw_sprite_ext(sTheTruth_S6,image_index,1024*5,576,1,1,0,image_blend,1);
+	draw_sprite_ext(sTheTruth_I6,image_index,1024*5,576,1,1,0,image_blend,1);	
+	//8
+	draw_sprite_ext(sTheTruth_G7,image_index,1024*6,576,1,1,0,image_blend,1);
+	draw_sprite_ext(sTheTruth_VD7,image_index,1024*6,576,1,1,0,image_blend,0.8);
+	draw_sprite_ext(sTheTruth_S7,image_index,1024*6,576,1,1,0,image_blend,1);
+	draw_sprite_ext(sTheTruth_I7,image_index,1024*6,576,1,1,0,image_blend,1);	
+	//9
+	draw_sprite_ext(sTheTruth_G8,image_index,1024*7,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_VD7,image_index,1024*7,576,1,1,0,image_blend,0.8);
+	//draw_sprite_ext(sTheTruth_S7,image_index,1024*7,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_I7,image_index,1024*7,576,1,1,0,image_blend,1);	
+    //10
+	draw_sprite_ext(sTheTruth_G9,image_index,1024*8,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_VD7,image_index,1024*8,576,1,1,0,image_blend,0.8);
+	//draw_sprite_ext(sTheTruth_S7,image_index,1024*8,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_I7,image_index,1024*8,576,1,1,0,image_blend,1);	
+	//11
+	draw_sprite_ext(sTheTruth_G11,image_index,1024*9,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_VD7,image_index,1024*8,576,1,1,0,image_blend,0.8);
+	//draw_sprite_ext(sTheTruth_S7,image_index,1024*8,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_I7,image_index,1024*8,576,1,1,0,image_blend,1);
+	//12
+	draw_sprite_ext(sTheTruth_G12,image_index,1024*10,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_VD7,image_index,1024*8,576,1,1,0,image_blend,0.8);
+	//draw_sprite_ext(sTheTruth_S7,image_index,1024*8,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_I7,image_index,1024*8,576,1,1,0,image_blend,1);	
+	//13
+	draw_sprite_ext(sTheTruth_G13,image_index,1024*11,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_VD7,image_index,1024*8,576,1,1,0,image_blend,0.8);
+	//draw_sprite_ext(sTheTruth_S7,image_index,1024*8,576,1,1,0,image_blend,1);
+	//draw_sprite_ext(sTheTruth_I7,image_index,1024*8,576,1,1,0,image_blend,1);	
+}
+
+#endregion
